@@ -127,7 +127,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-gray-50 px-4 py-6 flex items-center justify-center">
-      {console.log(data, "tessss")}
+  
       <div className="w-full max-w-sm bg-white rounded-2xl shadow p-5 sm:p-6">
         {otherUser &&
           otherUser.map((i: UserCardData) => {
